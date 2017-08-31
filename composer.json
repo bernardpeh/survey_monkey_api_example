@@ -1,0 +1,9 @@
+{
+    "name": "vcr0114",
+    "description": "API to transfer survey monkey submissions to campaign monitor",
+    "minimum-stability": "dev",
+    "require": {
+        "bernardpeh/surveymonkey-v3-api-php": "dev-master"
+    }
+}
+
