@@ -1,9 +1,15 @@
 {
-    "name": "vcr0114",
-    "description": "API to transfer survey monkey submissions to campaign monitor",
+    "name": "surveymonkey-api-example",
+    "description": "An example to demonstrate using survey monkey api",
     "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/bernardpeh/surveymonkey-v3-api-php"
+        }
+    ],
     "require": {
-        "bernardpeh/surveymonkey-v3-api-php": "dev-master"
+        "bpeh/surveymonkey-v3-api-php": "dev-master"
     }
 }
 

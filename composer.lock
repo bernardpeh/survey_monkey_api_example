@@ -4,21 +4,15 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "040b98ba6abd09d85b6c603d60487055",
+    "content-hash": "b6bd628a08f34b46a8274a84fdc669f5",
     "packages": [
         {
-            "name": "ghassani/surveymonkey-v3-api-php",
+            "name": "bpeh/surveymonkey-v3-api-php",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ghassani/surveymonkey-v3-api-php.git",
-                "reference": "93329159e546c6874adcafd8cceb362eb1e6aecd"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ghassani/surveymonkey-v3-api-php/zipball/93329159e546c6874adcafd8cceb362eb1e6aecd",
-                "reference": "93329159e546c6874adcafd8cceb362eb1e6aecd",
-                "shasum": ""
+                "url": "https://github.com/bernardpeh/surveymonkey-v3-api-php",
+                "reference": "610720bb5cd9cddaeda8ea95d0c7acdc9c35115f"
             },
             "require": {
                 "guzzlehttp/guzzle": "6.2.2",
@@ -30,17 +24,16 @@
                     "Spliced\\SurveyMonkey\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "GPL-3.0"
             ],
             "authors": [
                 {
-                    "name": "Gassan Idriss",
-                    "email": "ghassani@gmail.com"
+                    "name": "Bernard Peh",
+                    "email": "bpeh777@gmail.com"
                 }
             ],
-            "time": "2017-08-23 17:25:04"
+            "time": "2017-08-31 07:18:28"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -275,7 +268,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "ghassani/surveymonkey-v3-api-php": 20
+        "bpeh/surveymonkey-v3-api-php": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
